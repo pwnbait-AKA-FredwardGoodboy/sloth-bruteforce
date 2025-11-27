@@ -1,4 +1,4 @@
-# Simple 3 character password list generator for bruteforce tool.
+# Simple 8 character password list generator for bruteforce tool.
 # Passwords will generate alphanumerically and include symbols and capital letters.
 # Output is plaintext in a file named "pwdlist.txt" in the working directory this script is run.
 #
@@ -42,4 +42,5 @@ with open("pwdlist.txt", "w") as pwdlist:
                                     print(char1,char2,char3,char4,char5,char6,char7,char8, sep="", file=pwdlist)
 # exit script
 quit()
+
                                     
