@@ -1,5 +1,5 @@
 # sloth-bruteforce
-This is a python script that will generate possible password combinations of up to 8 characters. It will take many thousands of years to complete on a standard home computer and require permanent storage of approximately 13.6 petabytes.
+This is a python script that will generate possible password combinations of up to 8 characters. It will take many thousands of years to complete on a standard home computer and require permanent storage of approximately 13 petabytes.
 
 Using the string ``abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=!@#$%^&*()_+`~`` this script uses nested loops to display and write to a plaintext file named `pwdlist.txt` every possible password combination in order.
 Yes, this is largely useless, because it doesn't even include every special character on a standard US QWERTY keyboard. Maybe I'll update it someday. ...when it finishes running.
